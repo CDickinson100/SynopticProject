@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Synoptic Project", "Synoptic Project\Synoptic Project.csproj", "{023D320C-6189-4AA7-BDDF-6DE4697FDEFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit Tests", "Unit Tests\Unit Tests.csproj", "{797C32A4-FEC3-4F4E-81A5-71688853BD6F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{023D320C-6189-4AA7-BDDF-6DE4697FDEFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{023D320C-6189-4AA7-BDDF-6DE4697FDEFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{023D320C-6189-4AA7-BDDF-6DE4697FDEFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{023D320C-6189-4AA7-BDDF-6DE4697FDEFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{797C32A4-FEC3-4F4E-81A5-71688853BD6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{797C32A4-FEC3-4F4E-81A5-71688853BD6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{797C32A4-FEC3-4F4E-81A5-71688853BD6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{797C32A4-FEC3-4F4E-81A5-71688853BD6F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

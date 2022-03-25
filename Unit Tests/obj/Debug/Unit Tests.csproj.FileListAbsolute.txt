@@ -1,0 +1,36 @@
+C:\Users\5231733\RiderProjects\Synoptic Project\Unit Tests\bin\Debug\Unit_Tests.dll
+C:\Users\5231733\RiderProjects\Synoptic Project\Unit Tests\bin\Debug\Unit_Tests.pdb
+C:\Users\5231733\RiderProjects\Synoptic Project\Unit Tests\bin\Debug\nunit.framework.dll
+C:\Users\5231733\RiderProjects\Synoptic Project\Unit Tests\bin\Debug\Synoptic_Project.exe
+C:\Users\5231733\RiderProjects\Synoptic Project\Unit Tests\bin\Debug\YamlDotNet.dll
+C:\Users\5231733\RiderProjects\Synoptic Project\Unit Tests\bin\Debug\Synoptic_Project.pdb
+C:\Users\5231733\RiderProjects\Synoptic Project\Unit Tests\bin\Debug\nunit.framework.xml
+C:\Users\5231733\RiderProjects\Synoptic Project\Unit Tests\bin\Debug\YamlDotNet.xml
+C:\Users\5231733\RiderProjects\Synoptic Project\Unit Tests\obj\Debug\Unit Tests.csprojAssemblyReference.cache
+C:\Users\5231733\RiderProjects\Synoptic Project\Unit Tests\obj\Debug\Unit Tests.csproj.CoreCompileInputs.cache
+C:\Users\5231733\RiderProjects\Synoptic Project\Unit Tests\obj\Debug\Unit Tests.csproj.CopyComplete
+C:\Users\5231733\RiderProjects\Synoptic Project\Unit Tests\obj\Debug\Unit_Tests.dll
+C:\Users\5231733\RiderProjects\Synoptic Project\Unit Tests\obj\Debug\Unit_Tests.pdb
+C:\Users\5231733\RiderProjects\Synoptic Project\Unit Tests\bin\Debug\Castle.Core.dll
+C:\Users\5231733\RiderProjects\Synoptic Project\Unit Tests\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\5231733\RiderProjects\Synoptic Project\Unit Tests\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\5231733\RiderProjects\Synoptic Project\Unit Tests\bin\Debug\Castle.Core.xml
+C:\Users\5231733\RiderProjects\Synoptic Project\Unit Tests\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\5231733\RiderProjects\Synoptic Project\Unit Tests\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\chris.dickinson\RiderProjects\Synoptic Project\Unit Tests\bin\Debug\Unit_Tests.dll
+C:\Users\chris.dickinson\RiderProjects\Synoptic Project\Unit Tests\bin\Debug\Unit_Tests.pdb
+C:\Users\chris.dickinson\RiderProjects\Synoptic Project\Unit Tests\bin\Debug\nunit.framework.dll
+C:\Users\chris.dickinson\RiderProjects\Synoptic Project\Unit Tests\bin\Debug\Synoptic_Project.exe
+C:\Users\chris.dickinson\RiderProjects\Synoptic Project\Unit Tests\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\chris.dickinson\RiderProjects\Synoptic Project\Unit Tests\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\chris.dickinson\RiderProjects\Synoptic Project\Unit Tests\bin\Debug\YamlDotNet.dll
+C:\Users\chris.dickinson\RiderProjects\Synoptic Project\Unit Tests\bin\Debug\Synoptic_Project.pdb
+C:\Users\chris.dickinson\RiderProjects\Synoptic Project\Unit Tests\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\chris.dickinson\RiderProjects\Synoptic Project\Unit Tests\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\chris.dickinson\RiderProjects\Synoptic Project\Unit Tests\bin\Debug\nunit.framework.xml
+C:\Users\chris.dickinson\RiderProjects\Synoptic Project\Unit Tests\bin\Debug\YamlDotNet.xml
+C:\Users\chris.dickinson\RiderProjects\Synoptic Project\Unit Tests\obj\Debug\Unit Tests.csprojAssemblyReference.cache
+C:\Users\chris.dickinson\RiderProjects\Synoptic Project\Unit Tests\obj\Debug\Unit Tests.csproj.CoreCompileInputs.cache
+C:\Users\chris.dickinson\RiderProjects\Synoptic Project\Unit Tests\obj\Debug\Unit Tests.csproj.CopyComplete
+C:\Users\chris.dickinson\RiderProjects\Synoptic Project\Unit Tests\obj\Debug\Unit_Tests.dll
+C:\Users\chris.dickinson\RiderProjects\Synoptic Project\Unit Tests\obj\Debug\Unit_Tests.pdb

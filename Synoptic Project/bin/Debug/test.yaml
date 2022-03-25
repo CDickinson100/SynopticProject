@@ -1,0 +1,265 @@
+items:
+- name: Punch
+  worth: 0
+  defenceModifier: 1
+  displayInInventory: false
+  defaultAction: 
+- name: Silver
+  worth: 1
+  defenceModifier: 0
+  displayInInventory: true
+  defaultAction: 
+- name: Gold
+  worth: 5
+  defenceModifier: 0
+  displayInInventory: true
+  defaultAction: 
+- name: Enchanted Treasure
+  worth: 50
+  defenceModifier: 0
+  displayInInventory: true
+  defaultAction: 
+- name: Exit Key
+  worth: 0
+  defenceModifier: 0
+  displayInInventory: true
+  defaultAction: 
+- name: Sword
+  worth: 10
+  defenceModifier: 2
+  displayInInventory: true
+  defaultAction: 
+- name: Armor
+  worth: 10
+  defenceModifier: 0
+  displayInInventory: true
+  defaultAction: 
+- name: Water Bucket
+  worth: 0
+  defenceModifier: 0
+  displayInInventory: true
+  defaultAction: 
+- name: Health Potion
+  worth: 5
+  defenceModifier: 0
+  displayInInventory: true
+  defaultAction:
+    actionType: HealSelf
+    damage: 25
+    message: You used a health potion and healed yourself.
+    consume: true
+rooms:
+- name: Treasure Room
+  spawnable: false
+  treasures:
+    Sword: 1
+    Gold: 15
+  passages:
+  - direction: South
+    destination: North Hallway
+    unlockedBy: ''
+    locked: false
+    isExit: false
+  threat: 
+- name: North Hallway
+  spawnable: false
+  treasures:
+    Silver: 5
+    Gold: 1
+  passages:
+  - direction: North
+    destination: Treasure Room
+    unlockedBy: ''
+    locked: false
+    isExit: false
+  - direction: East
+    destination: East Hallway
+    unlockedBy: ''
+    locked: false
+    isExit: false
+  - direction: West
+    destination: West Hallway
+    unlockedBy: ''
+    locked: false
+    isExit: false
+  - direction: South
+    destination: Boss Room
+    unlockedBy: ''
+    locked: false
+    isExit: false
+  threat:
+    name: Fire
+    health: 100
+    damage: 25
+    maxHealth: 100
+    actions:
+      Punch:
+        actionType: DamageSelf
+        damage: 10
+        message: You punched the fire... that hurt.
+        consume: false
+      Sword:
+        actionType: None
+        damage: 0
+        message: You attacked the fire... why did you think that would work?
+        consume: false
+      Water Bucket:
+        actionType: KillThreat
+        damage: 0
+        message: You threw water on the fire and extinguished it.
+        consume: true
+- name: West Hallway
+  spawnable: true
+  treasures:
+    Silver: 7
+    Gold: 2
+  passages:
+  - direction: North
+    destination: North Hallway
+    unlockedBy: ''
+    locked: false
+    isExit: false
+  - direction: East
+    destination: Boss Room
+    unlockedBy: ''
+    locked: false
+    isExit: false
+  - direction: South
+    destination: South Hallway
+    unlockedBy: ''
+    locked: false
+    isExit: false
+  threat: 
+- name: Boss Room
+  spawnable: false
+  treasures:
+    Exit Key: 1
+    Enchanted Treasure: 1
+  passages:
+  - direction: North
+    destination: North Hallway
+    unlockedBy: ''
+    locked: false
+    isExit: false
+  - direction: East
+    destination: East Hallway
+    unlockedBy: ''
+    locked: false
+    isExit: false
+  - direction: South
+    destination: South Hallway
+    unlockedBy: ''
+    locked: false
+    isExit: false
+  - direction: West
+    destination: West Hallway
+    unlockedBy: ''
+    locked: false
+    isExit: false
+  threat:
+    name: Orc King
+    health: 100
+    damage: 50
+    maxHealth: 100
+    actions:
+      Punch:
+        actionType: DamageThreat
+        damage: 7
+        message: You punched the orc king, it did a bit of damage
+        consume: false
+      Sword:
+        actionType: DamageThreat
+        damage: 40
+        message: You attacked the orc king, it did a lot of damage
+        consume: false
+      Water Bucket:
+        actionType: None
+        damage: 0
+        message: You threw water at the orc king, it looks at you in confusion.
+        consume: false
+- name: East Hallway
+  spawnable: true
+  treasures:
+    Silver: 3
+    Health Potion: 1
+  passages:
+  - direction: North
+    destination: North Hallway
+    unlockedBy: ''
+    locked: false
+    isExit: false
+  - direction: West
+    destination: Boss Room
+    unlockedBy: ''
+    locked: false
+    isExit: false
+  - direction: South
+    destination: Armory
+    unlockedBy: ''
+    locked: false
+    isExit: false
+  threat: 
+- name: Armory
+  spawnable: false
+  treasures:
+    Armor: 1
+    Health Potion: 1
+  passages:
+  - direction: North
+    destination: East Hallway
+    unlockedBy: ''
+    locked: false
+    isExit: false
+  - direction: West
+    destination: South Hallway
+    unlockedBy: ''
+    locked: false
+    isExit: false
+  threat:
+    name: Orc Soldier
+    health: 100
+    damage: 15
+    maxHealth: 100
+    actions:
+      Punch:
+        actionType: DamageThreat
+        damage: 10
+        message: You punched the orc soldier, it did a bit of damage
+        consume: false
+      Sword:
+        actionType: DamageThreat
+        damage: 50
+        message: You attacked the orc soldier, it did a lot of damage
+        consume: false
+      Water Bucket:
+        actionType: None
+        damage: 0
+        message: You threw water at the orc soldier, it looks at you in confusion.
+        consume: false
+- name: South Hallway
+  spawnable: true
+  treasures:
+    Gold: 3
+    Water Bucket: 1
+  passages:
+  - direction: North
+    destination: Boss Room
+    unlockedBy: ''
+    locked: false
+    isExit: false
+  - direction: East
+    destination: Armory
+    unlockedBy: ''
+    locked: false
+    isExit: false
+  - direction: West
+    destination: West Hallway
+    unlockedBy: ''
+    locked: false
+    isExit: false
+  - direction: South
+    destination: ''
+    unlockedBy: Exit Key
+    locked: true
+    isExit: true
+  threat: 
